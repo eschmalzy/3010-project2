@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.craft.criminalintent"
+        applicationId "com.example.craft.budget2"
         minSdkVersion 21
         targetSdkVersion 25
         versionCode 1

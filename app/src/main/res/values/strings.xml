@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">CriminalIntent</string>
-    <string name="crime_title_hint">Enter a title for the crime.</string>
-    <string name="crime_title_label">Title</string>
-    <string name="crime_details_label">Details</string>
-    <string name="crime_solved_label">Solved</string>
+    <string name="app_name">Budget Manager</string>
+    <string name="budget_title_hint">Enter a title for the budget.</string>
+    <string name="budget_amount_hint">Enter an amount for the budget.</string>
+    <string name="budget_title_label">Title</string>
+    <string name="budget_solved_label">Solved</string>
+    <string name="budget_amount_label">Amount</string>
+    <string name="create_button">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="alert_title">Budget</string>
+    <string name="edit">Edit</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.craft.criminalintent;
+package com.example.craft.budget2;
 
 import org.junit.Test;
 
