@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -82,8 +83,13 @@ public class BudgetListFragment extends Fragment {
         @Override
         public void onBindViewHolder(BudgetHolder holder, int position) {
             Budget budget = mBudgets.get(position);
+            for(Iterator<Budget> iter = mBudgets.listIterator(); iter.hasNext();){
+                Budget b = iter.next();
+                if(b.getAmount() == -123456789){
+                    iter.remove();
+                }
+            }
             holder.bindBudget(budget);
-            Log.d("budget", "binding budget");
         }
 
         @Override
